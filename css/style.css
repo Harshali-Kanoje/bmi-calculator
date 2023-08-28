@@ -68,3 +68,20 @@ button {
    font-weight: bold;
    color: rgb(171, 132, 206);;
 }
+
+@media screen and ( max-width:600px){
+   .height-input {
+      width: 48px;
+      margin-left: 10px;
+   }
+
+   button {
+
+      width: 142px;
+
+   }
+
+   .bmi-cal{
+      width: 100px;
+   }
+}
