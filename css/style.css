@@ -60,6 +60,7 @@ button {
    background-color:  rgb(171, 132, 206);
    color: white;
    border-radius: 10px;
+   border: none;
 }
 
 #showText {
@@ -71,12 +72,12 @@ button {
 
 @media screen and ( max-width:600px){
    .height-input {
-      width: 48px;
+      width: 50px;
       margin-left: 10px;
    }
 
    button {
-
+      margin: 20px 10px;
       width: 142px;
 
    }

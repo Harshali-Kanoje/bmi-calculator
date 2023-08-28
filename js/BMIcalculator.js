@@ -27,8 +27,12 @@ const weight = document.getElementById('weight');
             else if (result.value > 24.9 && result.value < 39.9) {
                 para.innerText = ' You are overweight!';
             }
-            else {
+            else if (result.value >=40.0) {
                 para.innerText = ' You are Obese!';
+            }
+            else{
+                result.value = '';
+                para.innerText = 'Please fill the required fields!';
             }
         }
 
